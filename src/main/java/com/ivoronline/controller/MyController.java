@@ -1,10 +1,8 @@
-package com.ivoronline.springboot_database_jdbctemplate_select.controller;
+package com.ivoronline.controller;
 
-import com.ivoronline.springboot_database_jdbctemplate_select.dto.PersonDTO;
-import com.ivoronline.springboot_database_jdbctemplate_select.service.MyService;
+import com.ivoronline.dto.PersonDTO;
+import com.ivoronline.service.MyService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.BeanPropertyRowMapper;
-import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;

@@ -1,4 +1,4 @@
-package com.ivoronline.springboot_database_jdbctemplate_select.dto;
+package com.ivoronline.dto;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -6,7 +6,10 @@ import lombok.Setter;
 @Getter
 @Setter
 public class PersonDTO {
+  
+  //PROPERTIES
   private Integer id;
   private String  name;
   private Integer age;
+  
 }
